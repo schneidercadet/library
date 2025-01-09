@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Explore = () => {
     return (
@@ -8,9 +9,9 @@ const Explore = () => {
                     <h2 className="section__title">
                         Explore more <span className="purple">Books</span>
                     </h2>
-                    <a href="/books">
+                    <Link to ="/books">
                         <button className="btn">View all books</button> 
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>
